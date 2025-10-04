@@ -1,0 +1,99 @@
+
+.hero img{
+    width: 100%;
+    height: 100vh;
+    font-family: "outfit";
+}
+.spacer{
+    position: absolute;
+width: 643px;
+height: 480px;
+left: 800px;
+top: 180px;
+
+background: #FFF3E3;
+border-radius: 10px;
+}
+.hero-text {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 50px;
+    top: 60px;
+}
+
+
+.ptx{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(15, 4, 4);
+    margin-top: -30px;
+    font-family: "outfit";
+}
+
+.hero-text h1{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 65px;
+ color:#B88E2F ;
+}
+
+.ptp{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+}
+
+.button{
+    width: 100px;
+   padding: 25px 75px;
+    border: 2px solid #B88E2F;
+    cursor: pointer;
+    background: #B88E2F;
+}
+.button h3{
+    font-family: 'Poppins, Arial';
+font-style: normal;
+font-weight: 300;
+margin: 1px 2px;
+color: white
+}
+
+
+
+@media (max-width: 900px) {
+    .hero {
+        height: auto;
+        min-height: 320px;
+    }
+    .hero img {
+        height: 180px;
+        object-fit: cover;
+    }
+    .spacer {
+        width: 90vw;
+        height: auto;
+        left: 0;
+        top: 40px;
+        border-radius: 8px;
+        padding: 16px;
+    }
+    .hero-text {
+        margin: 16px;
+        top: 24px;
+        gap: 16px;
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    .ptx {
+        font-size: 1rem;
+        margin-top: -10px;
+    }
+}

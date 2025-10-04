@@ -1,0 +1,165 @@
+.create-product-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-preview-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+}
+
+.preview-image-section {
+  width: 100%;
+  height: 350px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview-placeholder {
+  color: #999;
+  font-size: 16px;
+}
+
+.preview-details {
+  padding: 30px;
+  text-align: center;
+}
+
+.preview-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+}
+
+.preview-desc {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin: 0 0 20px 0;
+}
+
+.preview-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 25px 0;
+}
+
+.preview-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.preview-btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #f8f9fa;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.preview-btn:hover {
+  background: #3498db;
+  transform: scale(1.1);
+}
+
+.product-form-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.product-form-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.file-input,
+.text-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.file-input:focus,
+.text-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #c9a961;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #b89550;
+}
+
+.submit-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: #27ae60;
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+}

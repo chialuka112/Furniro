@@ -1,0 +1,118 @@
+
+.container h2{
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.boxes h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    
+}
+.box1{
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.box2{
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.box3{
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.box1:hover, .box2:hover, .box3:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Responsive styles for Sections */
+@media (max-width: 900px) {
+    .boxes {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .box1, .box2, .box3 {
+        width: 90vw;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    .container h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 32px;
+    }
+    .container p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    .boxes h3 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .boxes {
+        gap: 16px;
+    }
+    .box1, .box2, .box3 {
+        width: 98vw;
+        max-width: 98vw;
+        padding: 12px;
+    }
+    .container h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .container p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .boxes h3 {
+        font-size: 16px;
+        margin: 12px 0;
+    }
+}
